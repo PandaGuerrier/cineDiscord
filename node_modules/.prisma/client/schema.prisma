@@ -1,0 +1,27 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["referentialIntegrity"]
+}
+
+datasource db {
+  provider             = "mysql"
+  url                  = env("DATABASE_URL")
+  shadowDatabaseUrl    = env("SHADOW_DATABASE_URL")
+  referentialIntegrity = "prisma"
+}
+
+model Film {
+  id          String   @id
+  title       String @unique
+  description Json
+  releaseDate DateTime
+  image       String
+  actors      String
+  type        Json
+  }
+
+model User {
+  email String @id
+  name  String 
+  role  String @default(value: "member")
+} 

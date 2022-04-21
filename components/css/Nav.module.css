@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+.login{
+  margin-left: auto;
+  border: 0px;
+  background-color: transparent;
+  cursor: pointer;
+
+  font-size: 18px;
+  color: white;
+  margin-right: 2.5vh;
+  transition: all .5s ease;
+}
+
+.login:hover {
+  color: #65666b
+}
+.test{
+  display: flex;
+  width: 100%;
+}
+.navBar{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #191A21;
+  box-shadow: 0px 4px 4px rgba(29, 22, 46, 0.25);
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+}
+.flex{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+}
+.flex a{
+  margin-right: 5vh;
+  font-size: 16px;
+
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  color: #fff ;
+}
+.input_search_nav{
+  margin-top: 1vh;
+  width: 600px;
+  height: 40px;
+  padding-left: 1vh;
+  cursor: pointer;
+  border-radius: 5px;
+
+  border: 1px solid #6272A4;
+  background: url('https://cdn.discordapp.com/attachments/933079007237378051/965803498262364231/search-outline_1.png') no-repeat 575px 11px #282A36;
+  color: #fff;
+  font-size: 1.3vh;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.search_nav_center_div{
+  display: flex;
+  justify-content: center;
+}
+.esp_nav_search{
+  margin-top: 2.5vh;
+}
+.result_recherche_div{
+  display: flex;
+  padding: 5vh;
+  padding-left: 0;
+}
+.link_film{
+  text-decoration: none;
+  color: white;
+}
+.div_film_style_film{
+  border-radius: 1vh;
+  width: 150px;
+  height: 300px;
+  overflow: hidden;
+  margin-right: 2vh;
+  padding-bottom: 1vh;
+
+  border: 3px solid #9E5B8B;
+  border-top: none;
+  border-right: none;
+  transition-duration: .1s;
+}
+.div_film_style_film img{
+  width: 150px;
+  height: 220px;
+}
+.div_film_style_film div{
+  text-align: center;
+}
+.div_film_style_film h1{
+  font-size: 16px;
+  margin-top: -5px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.div_film_style_film h2{
+  display: none;
+}
+.div_film_style_film h3{
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  color: #454E6D;
+}
+.div_film_style_film h4{
+  font-size: 12px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  color: #454E6D;
+  white-space: normal;
+}
+.div_film_style_film:hover{
+  border: 5px solid #9E5B8B;
+  border-top: none;
+  border-right: none;
+}
